@@ -2,13 +2,14 @@ name: LateX to PDF
 
 on:
   push:
-    branches: 
+    branches:
       - master
       - develop
+      - main
     tags:
-       - '*'
+      - "*"
   pull_request:
-    branches: [ master ]
+    branches: [master, main]
 
 jobs:
   build_latex:
