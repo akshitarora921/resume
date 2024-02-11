@@ -1,0 +1,311 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+% \input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------¯
+\begin{center}
+    {\Huge \scshape Akshit Arora} \\ \vspace{1pt}
+    % Software Engineer · Computer Science Major · Kurukshetra University\\ \vspace{1pt}
+    \href{mailto:akshitarora9211@gmail.com}{ \underline{akshitarora9211@gmail.com}}\\ \vspace{1pt}
+    \small\href{tel:+91 9034300993}{\raisebox{-0.2\height}\faPhone\  \underline{+91 90343-00993}} ~ \href{https://akshit-arora-90965.web.app/}{\raisebox{-0.2\height}\faLink\  \underline{akshit-arora-90965.web.app}} ~ 
+    \href{https://www.linkedin.com/in/akshit-arora/}{\raisebox{-0.2\height}\faLinkedin\ \underline{linkedin.com/in/akshit-arora}}  ~
+    \href{https://github.com/akshitarora921}{\raisebox{-0.2\height}\faGithub\ \underline{github.com/akshitarora921}}
+    \vspace{-8pt}
+\end{center}
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Language}{: \textbf{JavaScript (ES5/ES6)}, Python, C,  \textbf{TypeScript}, C++, HTML, PL/SQL, CSS and JSON} \\
+     \textbf{Framework}{:  \textbf{React}, \textbf{Next.js}, GraphQL, Figma, Firebase, \textbf{Jest}, Ant Design, \textbf{Chakra UI} and \textbf{TailwindCSS} } \\
+     \textbf{Tools}{: \textbf{Git}, GitLab, \textbf{Postman}, REST APIs, \textbf{Material UI}, Jira and bitbucket}\\
+     \textbf{Skills}{: \textbf{Frontend}, Unit testing, \textbf{Agile}, Mirco-services, SCRUM and Kanban}\\
+    }}
+ \end{itemize}
+ \vspace{-16pt}
+% %-----------PROGRAMMING SKILLS-----------
+% \section{Technical Skills}
+%  \begin{itemize}[leftmargin=0.15in, label={}]
+%     \small{\item{
+%      \textbf{Programming}{: C/C++, Python, JavaScript, TypeScript, PL/SQL} \\
+%      \textbf{Web/Media}{: React, Next.js, HTML, CSS, Oracle APEX, Figma, Material UI, Ant Design, Chakra UI, TailwindCSS } \\
+%      \textbf{Database}{: Firestore, MongoDB, MySQL}\\
+%      \textbf{Tools}{: Firebase, Git, VS Code}\\
+%     }}
+%  \end{itemize}
+%  \vspace{-16pt}
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Gartner}{Jun. 2022 -- Present}
+      {Software Engineer}{Gurgaon, IN}
+      % {React, Redux and Material UI}
+      \resumeItemListStart
+      \resumeItem{\textbf{Achieved} a \textbf{50\%} reduction in analysis time, effectively reducing it from 60 minutes to a mere 30 minutes.}
+      \resumeItem{\textbf{Created} a proprietary design framework utilizing Material UI as the core, establishing an internal design system.}
+      \resumeItem{\textbf{Implementation} of a revamped and highly efficient internal product, we have delivered exceptional cost savings of more than \textbf{\$4 million} to our valued clients. Using React, Redux, Chart.js and Material UI.}
+      \resumeItemListEnd
+    
+  
+    % \resumeSubheading
+    %   {Publicis Sapient}{Apr. 2022 - Jun. 2022}
+    %   {Associate L2- Experience Team}{Gurgaon, IN}
+    %   % {React, Redux and Material UI}
+    %   \resumeItemListStart
+    %     \resumeItem{Worked on JavaScript and Accessibility of the application.}
+    %   \resumeItemListEnd
+    
+    \resumeSubheading
+      {Infosys}{Jan. 2021 - Apr. 2022}
+      {Systems Engineer - Fintech Team}{Bangalore, IN}
+      % {React, Redux and Material UI}
+      \resumeItemListStart
+        \resumeItem{\textbf{Developed} a prototype for the migration of banking applications to the GRAND Stack.}
+        \resumeItem{\textbf{Converted}  REST APIs to GraphQL, resulting in a shift towards a more efficient and flexible method of working with data through the adoption of a query language.}
+        \resumeItem{\textbf{Collaborated} with a team to enhance and modify the Oracle Apex app. We strategized, improved features and user interface, and managed data. Our effective communication and coordination resulted in a successful app enhancement.}
+        \resumeItem{\textbf{Designed} and \textbf{implemented} a monitoring automation system and dashboard, streamlining the query execution process and saving over \textbf{100 hours} of manual work. Using React, Apollo, Graph DB and GraphQL.}
+      \resumeItemListEnd
+    
+%   \resumeSubHeadingListEnd
+% \vspace{-16pt}
+%-----------EXPERIENCE-----------
+% \section{Internships}
+%   \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {AnaMoney}{Aug. 2020 - Jan. 2021}
+      {Software Engineer Intern - Frontend}{Bangalore, IN}
+      % {React, Redux and Material UI}
+      \resumeItemListStart
+        \resumeItem{\textbf{Designed and built} tailored MVP and React applications, gathering requirements, creating wireframes and prototypes, conducting testing, and implementing improvements based on user feedback.}
+        \resumeItem{\textbf{Constructed} the primary website entirely from the ground up, ensuring a customized and unique online presence. Collaborated closely with talented designers to bring the vision to life. Link: \href{https://ana-money-website.web.app}{\underline{ana-money-website.web.app}}}
+        \resumeItem{Being among the \textbf{first 5 developers}, I had the privilege of experiencing a dynamic work environment where I could assume different roles and tackle a variety of tasks. Using React, Chakra UI and Redux.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {LaDigital}{Jun. 2020 - Aug. 2020}
+      {Software Engineer Intern - Frontend }{Dubai, UAE}
+      \resumeItemListStart
+      \resumeItem{\textbf{Built} multiple modules to enhance the user interface and improve user experience.}
+      \resumeItem{\textbf{Worked} on the education system project for the Dubai Government, providing valuable insights and recommendations to improve its overall implementation and impact. Using React, TypeScript, Ant Design and Micro-frontends}
+        % \resumeItem{Part of the core front-end team.}TODO: - NOT REQUIRED
+      \resumeItemListEnd
+    
+    % \resumeSubheading
+    %   {Fame Technologies  }{ Jun. 2019 - Aug. 2019}
+    %   {Systems Engineer Intern - Full Stack}{Bangalore, IN}
+    %   % {React, Redux and Material UI}
+    %   \resumeItemListStart
+    %     \resumeItem{Worked on a client project from scratch.}
+    %     \resumeItem{Built a MERN stack application.}
+    %   \resumeItemListEnd
+    
+  \resumeSubHeadingListEnd
+\vspace{-16pt}
+%-----------EXPERIENCE-----------
+\section{Open Source Portfolio}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Help-a-Family - Margarita Humanitarian Foundation (\href{https://github.com/margaritahumanitarian/helpafamily}{\underline {repo-link}}) (\href{https://github.com/margaritahumanitarian/helpafamily/pulls?q=is\%3Apr+is\%3Aclosed+author\%3Aakshitarora921}{\underline {contributions-link}})}{} 
+      {}{}
+      \vspace{-16pt}
+      % {Open Source}{Los Angeles, CA, US}
+      % {React, Redux and Material UI}
+      \resumeItemListStart
+        \resumeItem {Accessibility score in Lighthouse has been enhanced to reach a perfect \textbf{100}, ensuring improved accessibility for all users.}
+        \resumeItem {Enhanced the user experience on mobile devices by implementing a sidebar navigation feature. Additionally, introduced a card carousel and various new sections, while also enhancing the existing ones for a more seamless browsing experience.} 
+      \resumeItemListEnd
+  
+  
+    \resumeSubheading
+      {Gita-Frontend-v2 - Ved Vyas Foundation (\href{https://github.com/gita/gita-frontend-v2}{\underline{repo-link}}) (\href{https://github.com/gita/gita-frontend-v2/pulls?q=is\%3Apr+is\%3Aclosed+author\%3Aakshitarora921+}{\underline {contributions-link}})}{}
+      {}{}
+      \vspace{-16pt}
+      \resumeItemListStart
+        \resumeItem{Enhancements have been made to the system, including the addition of dark mode support, search functionality, improved chapter navigation, and separate screens for chapters and verses.}
+        \resumeItem{Authentication has been seamlessly integrated into the system's user interface, creating an intuitive login process.}
+      \resumeItemListEnd
+    % \resumeSubheading
+    %   {Wings for Wilds}{Jul. 2018 - Nov 2018}
+    %   {Innovation Team TODO:Write something better}{Lucknow, IN}
+    %   % {React, Redux and Material UI}
+    %   \resumeItemListStart
+    %     \resumeItem{Raised awareness about the tigers and other wildlife species.}
+    %     \resumeItem{Designed posters for awareness camps}
+    %     \resumeItem{Wrote blogs related to wildlife.}
+    %   \resumeItemListEnd
+    
+   
+    
+  \resumeSubHeadingListEnd
+\vspace{-16pt}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Kurukshetra University, Kurukshetra}{Aug. 2016 - May. 2020}
+      {B.Tech - Computer Science}{86\%}
+     \resumeSubheading
+      {O.S.D.A.V Public School, Kaithal}{Apr. 2014 - Mar. 2016}
+      {CBSE - Science}{8.8 CGPA}
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------
+% \section{Projects}
+%     \vspace{-5pt}
+%     \resumeSubHeadingListStart
+%       \resumeProjectHeading
+%           {\textbf{Portfolio v2.0} $|$ \emph{React, Firebase and CSS3}}{}
+%           \resumeItemListStart
+%             \resumeItem{Implemented user authentication using login/signup functionalities.}
+%             \resumeItem{Employed cookies to manage session information with an expiration time, ensuring session persistence.}
+%             \resumeItem{Incorporated onboarding questions to gather user personality traits and facilitate partner recommendations.}
+%             \resumeItem{Enabled users to like and unlike recommended partners based on their preferences.}
+%             \resumeItem{Implemented location-based filtering to suggest partners within the user's preferred proximity.}
+%             \resumeItem{Utilized web socket to facilitate real-time chat between mutually matched users, fostering meaningful connections.}
+%             \resumeItem{Utilized React Context API for code reusability, and simplified state management across components.}
+%           \resumeItemListEnd
+%           \vspace{-13pt}
+%       \resumeProjectHeading
+%           {\textbf{E-COMMERCE WEBSITE} $|$ \emph{Reactjs}}{}
+%           \resumeItemListStart
+%             \resumeItem{Implemented user authentication utilizing Firebase authentication, for both secure sign-up/sign-in functionalities.}
+%             \resumeItem{Empowered users to effortlessly add products to carts and checkout seamlessly, streamlining the purchasing process.}
+%             \resumeItem{Enabled persistent order and cart item storage for users, ensuring access to their purchase history and progress.}
+%             \resumeItem{Integrated Stripe API for checkout transactions.}
+%             \resumeItem{Provided users with the option to cancel orders if necessary, offering flexibility and control over their purchases.}
+%             \resumeItem{Provided sellers with different landing page to monitor sales of listed products and add more for listing products.}
+%             \resumeItem{Utilized React Context API for code reusability, and simplified state management across components.}
+%           \resumeItemListEnd 
+%     \resumeSubHeadingListEnd
+% \vspace{-15pt}
+
+%-----------INVOLVEMENT---------------
+\section{Achievements}
+  \resumeItemListStart
+      \resumeItem{Top \#1 out of 29 contributors to the Gita frontend repository. [\href {https://github.com/gita/bg-frontend/graphs/contributors} {\underline{link}}]}
+      \vspace{-4pt}
+      \resumeItem{Top \#5 out of 59 contributors to the Margarita Humanitarian Foundation help-a-family repository. [\href {https://github.com/margaritahumanitarian/helpafamily/graphs/contributors} {\underline{link}}]}
+      \vspace{-4pt}
+      \resumeItem{Top \#17 out of 74 contributors to the Google GDG[x] hoverboard repository. [\href {https://github.com/gdg-x/hoverboard/graphs/contributors} {\underline{link}}]}
+      \vspace{-4pt}
+  \resumeItemListEnd
+  \vspace{-15pt}
+
+
+
+\end{document}
